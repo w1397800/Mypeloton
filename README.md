@@ -34,4 +34,4 @@ Email: [w1397800@126.com]
 GitHub: https://github.com/w1397800/Mypeloton/tree/8.0
 
 If you use Mypeloton in research or applications, please cite or reference:
-> Jianhao Wei. Mypeloton: An In-Memory OLTP Database Engine Based on MySQL. GitHub: https://github.com/yourusername/mypeloton
+> Jianhao Wei. Mypeloton: An In-Memory OLTP Database Engine Based on MySQL. GitHub: https://github.com/w1397800/mypeloton
