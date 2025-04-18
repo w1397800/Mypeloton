@@ -1,0 +1,189 @@
+syntax="proto2";
+
+import "enum.proto";
+
+package mraft;
+option cc_generic_services = true;
+
+// data store in baidu-rpc's attachment
+message EntryMeta {
+    required int64 term = 1;
+    required EntryType type = 2;
+    optional int64 data_len = 3;
+};
+
+message AppendEntriesRequest {
+    required string group_id = 1;
+    required string server_id = 2;
+    required string peer_id = 3;
+    required int64 term = 4;
+    required int64 prev_log_term = 5;
+    required int64 prev_log_index = 6;
+    repeated EntryMeta entries = 7;
+    required int64 committed_index = 8;
+};
+
+message AppendEntriesResponse {
+    required int64 term = 1;
+    required bool success = 2;
+    optional int64 last_log_index = 3;
+};
+
+message SnapshotMeta {
+    required int64 last_included_index = 1;
+    required int64 last_included_term = 2;
+    repeated string peers = 3;
+    repeated string old_peers = 4;
+}
+
+message InstallSnapshotRequest {
+    required string group_id = 1;
+    required string server_id = 2;
+    required string peer_id = 3;
+    required int64 term = 4;
+    required SnapshotMeta meta = 5;
+    required string uri = 6;
+};
+
+message InstallSnapshotResponse {
+    required int64 term = 1;
+    required bool success = 2;
+};
+
+message PullEntriesRequest {
+    required string group_id = 1;
+    required string server_id = 2; // Address of the sender
+    required string peer_id = 3; // Address of the receiver
+    required int64 term = 4; // Current term of the Leader
+    required int64 start_index = 5; // The start index of the log entries of this request
+};
+
+message PullEntriesResponse {
+    required int64 term = 1;
+    required int64 last_index = 3; // The last index of the log entries of this node
+    required int64 first_index = 4; // The start index of the log entries of this response
+    repeated EntryMeta entries = 5;
+    required bool success = 6;
+};
+
+message ElectionPrepareRequest {
+    optional string sender = 1;
+    optional string receiver = 2;
+    optional int64 ballot_number = 3;
+
+    optional int64 role = 4;
+    optional int64 origin_priority = 5;
+    optional int64 calculated_priority = 6;
+
+    optional int64 member_list_version_ballot = 7;
+    optional int64 member_list_version_index = 8;
+
+};
+
+
+
+message ElectionPrepareResponse {
+    optional string sender = 1;
+    optional string receiver = 2;
+    optional int64 ballot_number = 3;
+
+    optional bool accept = 4;
+
+    optional string lease_owner = 5;
+    optional int64 lease_end_ts = 6;
+    optional int64 lease_ballot_number = 7;
+    optional bool is_send_by_proposer = 8;
+    optional bool is_lease_valid = 9;
+
+    optional int64 member_list_version_ballot = 10;
+    optional int64 member_list_version_index = 11;
+
+};
+
+message ElectionAcceptRequest {
+    optional string sender = 1;
+    optional string receiver = 2;
+    optional int64 ballot_number = 3;
+
+    optional int64 lease_started_ts_on_proposer = 4;
+    optional int64 lease_interval = 5;
+
+    optional string lease_owner = 6;
+    optional int64 lease_end_ts = 7;
+    optional int64 lease_ballot_number = 8;
+    optional bool is_renew_lease = 9;
+
+    optional int64 member_list_version_ballot = 10;
+    optional int64 member_list_version_index = 11;
+
+};
+
+message ElectionAcceptResponse {
+    optional string sender = 1;
+    optional string receiver = 2;
+    optional int64 ballot_number = 3;
+
+    optional int64 lease_started_ts_on_proposer = 4;
+    optional int64 lease_interval = 5;
+    optional bool accepted = 6;
+    optional int64 origin_priority = 7;
+    optional int64 calculated_priority = 8;
+
+    optional int64 member_list_version_ballot = 9;
+    optional int64 member_list_version_index = 10;
+
+};
+
+message ElectionChangeLeaderRequest{
+    optional string sender = 1;
+    optional string receiver = 2;
+    optional int64 ballot_number = 3;
+
+    optional int64 switch_source_leader_ballot_ = 4;
+
+    optional int64 member_list_version_ballot = 5;
+    optional int64 member_list_version_index = 6;
+}
+
+message AddNodeRequest{
+    optional string sender = 1;
+    optional string receiver = 2;
+    optional string serialized_info = 3;
+    optional string node_name = 4;
+
+}
+
+message RemoveNodeRequest{
+    optional string sender = 1;
+    optional string receiver = 2;
+    optional string serialized_info = 3;
+}
+
+message EmptyResponse{
+    optional bool is_success = 1;
+}
+
+service LogService {
+    rpc append_entries(AppendEntriesRequest) returns (AppendEntriesResponse);
+    rpc install_snapshot(InstallSnapshotRequest) returns (InstallSnapshotResponse);
+    rpc pull_entries(PullEntriesRequest) returns (PullEntriesResponse);
+
+    rpc prepare(ElectionPrepareRequest) returns (ElectionPrepareResponse);
+
+    rpc accept(ElectionAcceptRequest) returns (ElectionAcceptResponse);
+
+    rpc prepare_request(ElectionPrepareRequest) returns (EmptyResponse);
+
+    rpc prepare_response(ElectionPrepareResponse) returns (EmptyResponse);
+
+    rpc accept_request(ElectionAcceptRequest) returns (EmptyResponse);
+
+    rpc accept_response(ElectionAcceptResponse) returns (EmptyResponse);
+
+    rpc change_leader(ElectionChangeLeaderRequest) returns (EmptyResponse);
+
+    rpc add_node(AddNodeRequest) returns (EmptyResponse);
+
+    rpc remove_node(RemoveNodeRequest) returns (EmptyResponse);
+};
+

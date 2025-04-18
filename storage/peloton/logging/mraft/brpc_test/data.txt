@@ -1,0 +1,238 @@
+
+--- REPORT ---
+Total flush times for the last second:  265
+Average flush size for the last second:  0.0226116 MB
+Total flush size for the last second:  6.00886 MB
+Average latency for the last second: 0.971803 ms
+--- REPORT ---
+Total flush times for the last second:  990
+Average flush size for the last second:  0.0210037 MB
+Total flush size for the last second:  21.0253 MB
+Average latency for the last second: 0.56319 ms
+--- REPORT ---
+Total flush times for the last second:  1667
+Average flush size for the last second:  0.0211306 MB
+Total flush size for the last second:  35.8944 MB
+Average latency for the last second: 0.322429 ms
+--- REPORT ---
+Total flush times for the last second:  2747
+Average flush size for the last second:  0.018527 MB
+Total flush size for the last second:  52.6981 MB
+Average latency for the last second: 0.315152 ms
+--- REPORT ---
+Total flush times for the last second:  2828
+Average flush size for the last second:  0.0187635 MB
+Total flush size for the last second:  54.9424 MB
+Average latency for the last second: 0.33267 ms
+Total flush times for the last second:  2357                                                                                                                                      [70/1898]Average flush size for the last second:  0.0253239 MB
+Total flush size for the last second:  61.0203 MB
+Average latency for the last second: 0.388933 ms
+--- REPORT ---
+Total flush times for the last second:  2325
+Average flush size for the last second:  0.0256996 MB
+Total flush size for the last second:  61.0328 MB
+Average latency for the last second: 0.390586 ms
+--- REPORT ---
+Total flush times for the last second:  2317
+Average flush size for the last second:  0.0259132 MB
+Total flush size for the last second:  61.3121 MB
+Average latency for the last second: 0.370831 ms
+--- REPORT ---
+Total flush times for the last second:  2431
+Average flush size for the last second:  0.0229931 MB
+Total flush size for the last second:  57.3148 MB
+Average latency for the last second: 0.366098 ms
+--- REPORT ---
+Total flush times for the last second:  2467
+Average flush size for the last second:  0.0238924 MB
+Total flush size for the last second:  60.3795 MB
+Average latency for the last second: 0.379981 ms
+--- REPORT ---
+Total flush times for the last second:  2328
+Average flush size for the last second:  0.0246668 MB
+Total flush size for the last second:  58.7328 MB
+Average latency for the last second: 0.372036 ms
+--- REPORT ---
+Total flush times for the last second:  2430
+Average flush size for the last second:  0.0217371 MB
+Total flush size for the last second:  54.1996 MB
+Average latency for the last second: 0.305296 ms
+--- REPORT ---
+Total flush times for the last second:  2911
+Average flush size for the last second:  0.0191631 MB
+Total flush size for the last second:  57.782 MB
+Average latency for the last second: 0.385466 ms
+--- REPORT ---
+Total flush times for the last second:  2328
+Average flush size for the last second:  0.0236311 MB
+Total flush size for the last second:  56.3085 MB
+Average latency for the last second: 0.304428 ms
+--- REPORT ---
+Total flush times for the last second:  2940
+Average flush size for the last second:  0.0177479 MB
+Total flush size for the last second:  54.2016 MB
+Average latency for the last second: 0.323716 ms
+--- REPORT ---
+Total flush times for the last second:  2783
+Average flush size for the last second:  0.0191565 MB
+Total flush size for the last second:  55.1567 MB
+Average latency for the last second: 0.328161 ms
+--- REPORT ---
+Total flush times for the last second:  2737
+Average flush size for the last second:  0.0201139 MB
+Total flush size for the last second:  56.853 MB
+Average latency for the last second: 0.321557 ms
+--- REPORT ---
+Total flush times for the last second:  2778
+Average flush size for the last second:  0.0191116 MB
+Total flush size for the last second:  54.9079 MB
+Average latency for the last second: 0.320145 ms
+--- REPORT ---
+Total flush times for the last second:  2787
+Average flush size for the last second:  0.0192814 MB
+Total flush size for the last second:  55.633 MB
+Average latency for the last second: 0.324821 ms
+--- REPORT ---
+Total flush times for the last second:  2745
+Average flush size for the last second:  0.0202475 MB
+Total flush times for the last second:  2349                                                                                                                                     [140/1898]Average flush size for the last second:  0.0246162 MB
+Total flush size for the last second:  59.1326 MB
+Average latency for the last second: 0.386094 ms
+--- REPORT ---
+Total flush times for the last second:  2319
+Average flush size for the last second:  0.0248327 MB
+Total flush size for the last second:  58.8616 MB
+Average latency for the last second: 0.346788 ms
+--- REPORT ---
+Total flush times for the last second:  2591
+Average flush size for the last second:  0.0221376 MB
+Total flush size for the last second:  58.9669 MB
+Average latency for the last second: 0.359211 ms
+--- REPORT ---
+Total flush times for the last second:  2514
+Average flush size for the last second:  0.0224876 MB
+Total flush size for the last second:  58.0336 MB
+Average latency for the last second: 0.360378 ms
+--- REPORT ---
+Total flush times for the last second:  2503
+Average flush size for the last second:  0.0229235 MB
+Total flush size for the last second:  58.8844 MB
+Average latency for the last second: 0.328987 ms
+--- REPORT ---
+Total flush times for the last second:  2772
+Average flush size for the last second:  0.0203552 MB
+Total flush size for the last second:  58.2389 MB
+Average latency for the last second: 0.347794 ms
+--- REPORT ---
+Total flush times for the last second:  2626
+Average flush size for the last second:  0.0216227 MB
+Total flush size for the last second:  58.4286 MB
+Average latency for the last second: 0.353493 ms
+--- REPORT ---
+Total flush times for the last second:  2584
+Average flush size for the last second:  0.0221138 MB
+Total flush size for the last second:  58.7368 MB
+Average latency for the last second: 0.338076 ms
+--- REPORT ---
+Total flush times for the last second:  2625
+Average flush size for the last second:  0.0216742 MB
+Total flush size for the last second:  58.5598 MB
+Average latency for the last second: 0.344936 ms
+--- REPORT ---
+Total flush times for the last second:  2618
+Average flush size for the last second:  0.021533 MB
+Total flush size for the last second:  58.0069 MB
+Average latency for the last second: 0.355053 ms
+--- REPORT ---
+Total flush times for the last second:  2544
+Average flush size for the last second:  0.0227442 MB
+Total flush size for the last second:  59.4114 MB
+Average latency for the last second: 0.346441 ms
+--- REPORT ---
+Total flush times for the last second:  2596
+Average flush size for the last second:  0.0223475 MB
+Total flush size for the last second:  59.6178 MB
+Average latency for the last second: 0.370411 ms
+--- REPORT ---
+Total flush times for the last second:  2436
+Average flush size for the last second:  0.024169 MB
+Total flush size for the last second:  60.2775 MB
+Average latency for the last second: 0.375867 ms
+--- REPORT ---
+Total flush times for the last second:  2399
+Average flush size for the last second:  0.0247011 MB
+Total flush size for the last second:  60.6276 MB
+Average latency for the last second: 0.383385 ms
+--- REPORT ---
+Total flush times for the last second:  2357
+Total flush times for the last second:  2646                                                                                                                                     [210/1898]Average flush size for the last second:  0.0209293 MB
+Total flush size for the last second:  57.0571 MB
+Average latency for the last second: 0.377242 ms
+--- REPORT ---
+Total flush times for the last second:  2386
+Average flush size for the last second:  0.0213366 MB
+Total flush size for the last second:  52.2569 MB
+Average latency for the last second: 0.342847 ms
+--- REPORT ---
+Total flush times for the last second:  2612
+Average flush size for the last second:  0.0207014 MB
+Total flush size for the last second:  55.7213 MB
+Average latency for the last second: 0.328493 ms
+--- REPORT ---
+Total flush times for the last second:  2722
+Average flush size for the last second:  0.0203037 MB
+Total flush size for the last second:  57.0259 MB
+Average latency for the last second: 0.362075 ms
+--- REPORT ---
+Total flush times for the last second:  2432
+Average flush size for the last second:  0.0223484 MB
+Total flush size for the last second:  55.7342 MB
+Average latency for the last second: 0.385412 ms
+--- REPORT ---
+Total flush times for the last second:  2337
+Average flush size for the last second:  0.0238304 MB
+Total flush size for the last second:  56.9882 MB
+Average latency for the last second: 0.347291 ms
+--- REPORT ---
+Total flush times for the last second:  2596
+Average flush size for the last second:  0.0226021 MB
+Total flush size for the last second:  60.2915 MB
+Average latency for the last second: 0.405332 ms
+--- REPORT ---
+Total flush times for the last second:  2274
+Average flush size for the last second:  0.0246029 MB
+Total flush size for the last second:  57.1473 MB
+Average latency for the last second: 0.372073 ms
+--- REPORT ---
+Total flush times for the last second:  2474
+Average flush size for the last second:  0.023674 MB
+Total flush size for the last second:  60.0331 MB
+Average latency for the last second: 0.39225 ms
+--- REPORT ---
+Total flush times for the last second:  2347
+Average flush size for the last second:  0.0253096 MB
+Total flush size for the last second:  60.7211 MB
+Average latency for the last second: 0.38311 ms
+--- REPORT ---
+Total flush times for the last second:  1974
+Average flush size for the last second:  0.0238438 MB
+Total flush size for the last second:  47.9946 MB
+Average latency for the last second: 0.392107 ms
+--- REPORT ---
+Total flush times for the last second:  1928
+Average flush size for the last second:  0.0242748 MB
+Total flush size for the last second:  47.6877 MB
+Average latency for the last second: 0.364322 ms
+--- REPORT ---
+Total flush times for the last second:  2079
+Average flush size for the last second:  0.0236158 MB
+Total flush size for the last second:  50.1314 MB
+Average latency for the last second: 0.353207 ms
+--- REPORT ---
+Total flush times for the last second:  2544
+Average flush size for the last second:  0.0223475 MB
+Total flush size for the last second:  58.4209 MB
+Average latency for the last second: 0.384343 ms
+--- REPORT ---
+Total flush times for the last second:  2349
+Average flush size for the last second:  0.0246162 MB
